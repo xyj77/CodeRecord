@@ -1,0 +1,1 @@
+curl -d "DDDDD=ID&upass=PASSWD&v46s=1&v6ip=&f4serip=172.30.201.10&0MKKey=" "https://lgn.xxxx.edu.cn" | grep success >> lgn.log

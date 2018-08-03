@@ -1,0 +1,33 @@
+#include <stdio.h>  
+/**
+求斐波那契数列第n项 
+*/
+int FibonacciNum(int n){  
+    if(n < 0){  
+        return -1;  
+    }  
+    if(n == 0){  
+        return 0;  
+    }else if(n == 1){  
+        return 1;  
+    }else {  
+        return(FibonacciNum(n-1) + FibonacciNum(n-2));  
+    }  
+}  
+  
+int main(){  
+    int num;  
+    if(scanf("%d", &num)){  
+        if((num >= 0) && (num <= 50)){  
+            printf("%d", FibonacciNum(num));  
+        }else{  
+            printf("error!");  
+            return 0;  
+        }  
+    }else{  
+        printf("error!");  
+        return 0;  
+    }  
+      
+    return 0;  
+}  
