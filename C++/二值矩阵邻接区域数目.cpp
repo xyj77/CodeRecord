@@ -6,8 +6,8 @@
 #include <cstring> 
 #include <stdio.h>
 
-FILE *fin = freopen("binMapArea.in","r", stdin);  
-//FILE *fout = freopen("data.out","w",stdout); 
+FILE *fin = freopen("binMapArea.in", "r", stdin);  
+//FILE *fout = freopen("data.out", "w", stdout); 
  
 using namespace std;
 
