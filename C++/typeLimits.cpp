@@ -1,6 +1,7 @@
 #include<iostream>  
 #include<string>  
-#include <limits>  
+#include <limits>
+#include <stdio.h>  
 using namespace std;  
   
 int main(){  
@@ -34,7 +35,16 @@ int main(){
     cout << "\t最小值：" << (numeric_limits<long>::min)() << endl;  
     cout << "unsigned long: \t" << "所占字节数：" << sizeof(unsigned long);  
     cout << "\t最大值：" << (numeric_limits<unsigned long>::max)();  
-    cout << "\t最小值：" << (numeric_limits<unsigned long>::min)() << endl;  
+    cout << "\t最小值：" << (numeric_limits<unsigned long>::min)() << endl; 
+	
+	cout << "long long: \t" << "所占字节数：" << sizeof(long long);  
+    cout << "\t最大值：" << (numeric_limits<long long>::max)();  
+    cout << "\t最小值：" << (numeric_limits<long long>::min)() << endl;
+    
+    cout << "unsigned long long: \t" << "所占字节数：" << sizeof(unsigned long long);  
+    cout << "\t最大值：" << (numeric_limits<unsigned long long>::max)();  
+    cout << "\t最小值：" << (numeric_limits<unsigned long long>::min)() << endl;
+	 
     cout << "double: \t" << "所占字节数：" << sizeof(double);  
     cout << "\t最大值：" << (numeric_limits<double>::max)();  
     cout << "\t最小值：" << (numeric_limits<double>::min)() << endl;  

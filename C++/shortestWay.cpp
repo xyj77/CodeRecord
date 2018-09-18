@@ -7,7 +7,6 @@
 		  (12x11x10x9x8)/(5x4x3x2x1)=792 
 编程实现：回溯法
 */
-
 #include<iostream>
 using namespace std;
  
